@@ -112,7 +112,7 @@ class MainSceneViewController: UIViewController, UITextFieldDelegate {
         
         let inputNumber = Int(input)!
         
-        if(inputNumber.isAtleastThreeDigit) {
+        if (inputNumber.isAtleastThreeDigit) {
             
             navigationController?.pushViewController(GameResultViewController(repetitions: inputNumber), animated: false)
             

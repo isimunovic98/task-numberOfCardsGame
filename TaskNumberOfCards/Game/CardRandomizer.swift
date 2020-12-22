@@ -30,7 +30,7 @@ class CardRandomizer{
                 lastCardInFirstDeck = i
             }
              
-            if(firstDeck.count == 52){
+            if (firstDeck.count == 52){
                 flag = false
             }
             
@@ -43,7 +43,7 @@ class CardRandomizer{
                 sucesfullyAssembledDecks = container.rows[row].columns[column].cardsDrawn
                 }
                 
-                if(row == 8 && column == 3) {
+                if (row == 8 && column == 3) {
                     break
                 }
             }
